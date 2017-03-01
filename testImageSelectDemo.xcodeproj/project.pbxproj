@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200257271E67030900F9C19F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 200257261E67030900F9C19F /* main.m */; };
+		2002572A1E67030900F9C19F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 200257291E67030900F9C19F /* AppDelegate.m */; };
+		2002572D1E67030900F9C19F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002572C1E67030900F9C19F /* ViewController.m */; };
+		200257301E67030900F9C19F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2002572E1E67030900F9C19F /* Main.storyboard */; };
+		200257321E67030900F9C19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200257311E67030900F9C19F /* Assets.xcassets */; };
+		200257351E67030900F9C19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200257331E67030900F9C19F /* LaunchScreen.storyboard */; };
+		200257501E67031A00F9C19F /* def_picker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2002573D1E67031A00F9C19F /* def_picker@2x.png */; };
+		200257511E67031A00F9C19F /* sel_picker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2002573E1E67031A00F9C19F /* sel_picker@2x.png */; };
+		200257521E67031A00F9C19F /* VKAlbumInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 200257401E67031A00F9C19F /* VKAlbumInfoCell.m */; };
+		200257531E67031A00F9C19F /* VKAlbumInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200257421E67031A00F9C19F /* VKAlbumInfoViewController.m */; };
+		200257541E67031A00F9C19F /* VKAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 200257441E67031A00F9C19F /* VKAlbumModel.m */; };
+		200257551E67031A00F9C19F /* VKImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200257461E67031A00F9C19F /* VKImagePickerController.m */; };
+		200257561E67031A00F9C19F /* VKPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 200257491E67031A00F9C19F /* VKPhotoItem.m */; };
+		200257571E67031A00F9C19F /* VKPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002574B1E67031A00F9C19F /* VKPhotoManager.m */; };
+		200257581E67031A00F9C19F /* VKPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002574D1E67031A00F9C19F /* VKPhotoModel.m */; };
+		200257591E67031A00F9C19F /* VKPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002574F1E67031A00F9C19F /* VKPhotosViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		200257221E67030900F9C19F /* testImageSelectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testImageSelectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200257261E67030900F9C19F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		200257281E67030900F9C19F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		200257291E67030900F9C19F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2002572B1E67030900F9C19F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2002572C1E67030900F9C19F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2002572F1E67030900F9C19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		200257311E67030900F9C19F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		200257341E67030900F9C19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		200257361E67030900F9C19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2002573D1E67031A00F9C19F /* def_picker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "def_picker@2x.png"; sourceTree = "<group>"; };
+		2002573E1E67031A00F9C19F /* sel_picker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sel_picker@2x.png"; sourceTree = "<group>"; };
+		2002573F1E67031A00F9C19F /* VKAlbumInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAlbumInfoCell.h; sourceTree = "<group>"; };
+		200257401E67031A00F9C19F /* VKAlbumInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAlbumInfoCell.m; sourceTree = "<group>"; };
+		200257411E67031A00F9C19F /* VKAlbumInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAlbumInfoViewController.h; sourceTree = "<group>"; };
+		200257421E67031A00F9C19F /* VKAlbumInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAlbumInfoViewController.m; sourceTree = "<group>"; };
+		200257431E67031A00F9C19F /* VKAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAlbumModel.h; sourceTree = "<group>"; };
+		200257441E67031A00F9C19F /* VKAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAlbumModel.m; sourceTree = "<group>"; };
+		200257451E67031A00F9C19F /* VKImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKImagePickerController.h; sourceTree = "<group>"; };
+		200257461E67031A00F9C19F /* VKImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKImagePickerController.m; sourceTree = "<group>"; };
+		200257471E67031A00F9C19F /* VKImagePickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKImagePickerDelegate.h; sourceTree = "<group>"; };
+		200257481E67031A00F9C19F /* VKPhotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKPhotoItem.h; sourceTree = "<group>"; };
+		200257491E67031A00F9C19F /* VKPhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKPhotoItem.m; sourceTree = "<group>"; };
+		2002574A1E67031A00F9C19F /* VKPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKPhotoManager.h; sourceTree = "<group>"; };
+		2002574B1E67031A00F9C19F /* VKPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKPhotoManager.m; sourceTree = "<group>"; };
+		2002574C1E67031A00F9C19F /* VKPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKPhotoModel.h; sourceTree = "<group>"; };
+		2002574D1E67031A00F9C19F /* VKPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKPhotoModel.m; sourceTree = "<group>"; };
+		2002574E1E67031A00F9C19F /* VKPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKPhotosViewController.h; sourceTree = "<group>"; };
+		2002574F1E67031A00F9C19F /* VKPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKPhotosViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2002571F1E67030900F9C19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200257191E67030900F9C19F = {
+			isa = PBXGroup;
+			children = (
+				200257241E67030900F9C19F /* testImageSelectDemo */,
+				200257231E67030900F9C19F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		200257231E67030900F9C19F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200257221E67030900F9C19F /* testImageSelectDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		200257241E67030900F9C19F /* testImageSelectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2002573C1E67031A00F9C19F /* VKImagePickUtils */,
+				200257281E67030900F9C19F /* AppDelegate.h */,
+				200257291E67030900F9C19F /* AppDelegate.m */,
+				2002572B1E67030900F9C19F /* ViewController.h */,
+				2002572C1E67030900F9C19F /* ViewController.m */,
+				2002572E1E67030900F9C19F /* Main.storyboard */,
+				200257251E67030900F9C19F /* Supporting Files */,
+			);
+			path = testImageSelectDemo;
+			sourceTree = "<group>";
+		};
+		200257251E67030900F9C19F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				200257311E67030900F9C19F /* Assets.xcassets */,
+				200257331E67030900F9C19F /* LaunchScreen.storyboard */,
+				200257361E67030900F9C19F /* Info.plist */,
+				200257261E67030900F9C19F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2002573C1E67031A00F9C19F /* VKImagePickUtils */ = {
+			isa = PBXGroup;
+			children = (
+				2002573D1E67031A00F9C19F /* def_picker@2x.png */,
+				2002573E1E67031A00F9C19F /* sel_picker@2x.png */,
+				2002573F1E67031A00F9C19F /* VKAlbumInfoCell.h */,
+				200257401E67031A00F9C19F /* VKAlbumInfoCell.m */,
+				200257411E67031A00F9C19F /* VKAlbumInfoViewController.h */,
+				200257421E67031A00F9C19F /* VKAlbumInfoViewController.m */,
+				200257431E67031A00F9C19F /* VKAlbumModel.h */,
+				200257441E67031A00F9C19F /* VKAlbumModel.m */,
+				200257451E67031A00F9C19F /* VKImagePickerController.h */,
+				200257461E67031A00F9C19F /* VKImagePickerController.m */,
+				200257471E67031A00F9C19F /* VKImagePickerDelegate.h */,
+				200257481E67031A00F9C19F /* VKPhotoItem.h */,
+				200257491E67031A00F9C19F /* VKPhotoItem.m */,
+				2002574A1E67031A00F9C19F /* VKPhotoManager.h */,
+				2002574B1E67031A00F9C19F /* VKPhotoManager.m */,
+				2002574C1E67031A00F9C19F /* VKPhotoModel.h */,
+				2002574D1E67031A00F9C19F /* VKPhotoModel.m */,
+				2002574E1E67031A00F9C19F /* VKPhotosViewController.h */,
+				2002574F1E67031A00F9C19F /* VKPhotosViewController.m */,
+			);
+			path = VKImagePickUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		200257211E67030900F9C19F /* testImageSelectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200257391E67030900F9C19F /* Build configuration list for PBXNativeTarget "testImageSelectDemo" */;
+			buildPhases = (
+				2002571E1E67030900F9C19F /* Sources */,
+				2002571F1E67030900F9C19F /* Frameworks */,
+				200257201E67030900F9C19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testImageSelectDemo;
+			productName = testImageSelectDemo;
+			productReference = 200257221E67030900F9C19F /* testImageSelectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2002571A1E67030900F9C19F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = vanke;
+				TargetAttributes = {
+					200257211E67030900F9C19F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2002571D1E67030900F9C19F /* Build configuration list for PBXProject "testImageSelectDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 200257191E67030900F9C19F;
+			productRefGroup = 200257231E67030900F9C19F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				200257211E67030900F9C19F /* testImageSelectDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		200257201E67030900F9C19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200257351E67030900F9C19F /* LaunchScreen.storyboard in Resources */,
+				200257321E67030900F9C19F /* Assets.xcassets in Resources */,
+				200257501E67031A00F9C19F /* def_picker@2x.png in Resources */,
+				200257301E67030900F9C19F /* Main.storyboard in Resources */,
+				200257511E67031A00F9C19F /* sel_picker@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2002571E1E67030900F9C19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200257571E67031A00F9C19F /* VKPhotoManager.m in Sources */,
+				2002572D1E67030900F9C19F /* ViewController.m in Sources */,
+				2002572A1E67030900F9C19F /* AppDelegate.m in Sources */,
+				200257561E67031A00F9C19F /* VKPhotoItem.m in Sources */,
+				200257541E67031A00F9C19F /* VKAlbumModel.m in Sources */,
+				200257591E67031A00F9C19F /* VKPhotosViewController.m in Sources */,
+				200257521E67031A00F9C19F /* VKAlbumInfoCell.m in Sources */,
+				200257531E67031A00F9C19F /* VKAlbumInfoViewController.m in Sources */,
+				200257551E67031A00F9C19F /* VKImagePickerController.m in Sources */,
+				200257271E67030900F9C19F /* main.m in Sources */,
+				200257581E67031A00F9C19F /* VKPhotoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2002572E1E67030900F9C19F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2002572F1E67030900F9C19F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		200257331E67030900F9C19F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200257341E67030900F9C19F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		200257371E67030900F9C19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		200257381E67030900F9C19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2002573A1E67030900F9C19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testImageSelectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanke.testImageSelectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2002573B1E67030900F9C19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testImageSelectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanke.testImageSelectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2002571D1E67030900F9C19F /* Build configuration list for PBXProject "testImageSelectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200257371E67030900F9C19F /* Debug */,
+				200257381E67030900F9C19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		200257391E67030900F9C19F /* Build configuration list for PBXNativeTarget "testImageSelectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2002573A1E67030900F9C19F /* Debug */,
+				2002573B1E67030900F9C19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2002571A1E67030900F9C19F /* Project object */;
+}
